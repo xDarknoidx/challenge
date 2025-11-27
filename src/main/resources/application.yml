@@ -13,7 +13,7 @@ spring:
           brokers: localhost:9092  # Kafka broker address (mapped via Docker)
   data:
     mongodb:
-      uri: mongodb+srv://Darknoid:13A84C92@avorisdemo.bdjgm09.mongodb.net/
+      uri: mongodb://user:pass@avorisdemo.bdjgm09.mongodb.net/
       database: avorisdemo
 
 server:
