@@ -1,8 +1,21 @@
 spring:
-#  main:
-#    allow-bean-definition-overriding: true
   application:
     name: avoris
+  cloud:
+    stream:
+      bindings:
+        output-out-0: # Output binding for the producer
+          destination: "hotel_availability_searches"  # Kafka topic to send messages to
+        input-in-0: # Input binding for the consumer
+          destination: "hotel_availability_searches"  # Kafka topic to consume messages from
+      kafka:
+        binder:
+          brokers: localhost:9092  # Kafka broker address (mapped via Docker)
+  data:
+    mongodb:
+      uri: mongodb+srv://Darknoid:13A84C92@avorisdemo.bdjgm09.mongodb.net/
+      database: avorisdemo
+
 server:
   servlet:
     context-path: /avoris

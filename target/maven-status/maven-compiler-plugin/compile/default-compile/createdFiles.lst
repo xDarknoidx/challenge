@@ -1,3 +1,15 @@
 com/test/avoris/AvorisTestApplication.class
-com/test/avoris/infrastructure/input/rest/PriceController.class
+com/test/avoris/application/port/input/SearchUseCase.class
+com/test/avoris/application/service/SearchMapper.class
+com/test/avoris/infrastructure/input/rest/SearchController.class
+com/test/avoris/domain/exception/CustomServiceException.class
+com/test/avoris/application/port/input/response/CountResponseDTO.class
+com/test/avoris/application/port/input/response/SearchResponseDTO.class
+com/test/avoris/application/service/SearchUseCaseService.class
+com/test/avoris/infrastructure/input/rest/response/ErrorResponse.class
+com/test/avoris/infrastructure/input/event/SearchConsumer.class
+com/test/avoris/application/port/output/SearchEventPublisher.class
+com/test/avoris/domain/model/SearchDto.class
+com/test/avoris/infrastructure/input/rest/request/SearchRequestDTO.class
+com/test/avoris/infrastructure/output/event/SearchPublisher.class
 com/test/avoris/infrastructure/input/rest/CustomExceptionHandler.class

@@ -1,3 +1,15 @@
 /Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/AvorisTestApplication.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/application/port/input/SearchUseCase.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/application/port/input/response/CountResponseDTO.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/application/port/input/response/SearchResponseDTO.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/application/port/output/SearchEventPublisher.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/application/service/SearchMapper.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/application/service/SearchUseCaseService.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/domain/exception/CustomServiceException.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/domain/model/SearchDto.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/infrastructure/input/event/SearchConsumer.java
 /Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/infrastructure/input/rest/CustomExceptionHandler.java
-/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/infrastructure/input/rest/PriceController.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/infrastructure/input/rest/SearchController.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/infrastructure/input/rest/request/SearchRequestDTO.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/infrastructure/input/rest/response/ErrorResponse.java
+/Users/sandradominguezmiron/Desktop/EntornoDesarrollo/Workspaces/challenge/src/main/java/com/test/avoris/infrastructure/output/event/SearchPublisher.java
